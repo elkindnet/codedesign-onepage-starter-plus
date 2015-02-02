@@ -11,6 +11,7 @@ body {
     font-size: 18px;
     line-height: 2;
     background-color: #fff;
+	color: #000;
 }
 
 html {
@@ -43,6 +44,10 @@ h1 {
     border-color: #e7e7e7;
 }
 
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
 .btn-lg {
     padding: 15px 30px;
     font-weight: bold;
@@ -53,27 +58,31 @@ h1 {
     border: 2px solid #000;
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
 .intro-section {
-    background: url(../img/3.jpg) no-repeat center center fixed;
+    background: url(../img/0.jpg);
 }
 .about-section {
-    background: url(../img/0.jpg) no-repeat center center fixed;
+    background: url(../img/3.jpg);
 }
 .services-section {
-    background: url(../img/2.jpg) no-repeat center center fixed;
+    background: url(../img/2.jpg);
 }
 .contact-section {
-    background: url(../img/1.jpg) no-repeat center center fixed;
+    background: url(../img/1.jpg);
+}
+.overlay {
+	background: rgba(255, 255, 255, 0.5);
+    padding: 150px 0;
+	height: 100%; 
 }
 .parallax {
 	height: 100%; 
     margin: 0 auto; 
     width: 100%; 
     position: relative;
-    padding: 150px 0;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -87,8 +96,18 @@ of those sections to manage the look and feel of the site. */
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
-
+	
     .top-nav-collapse {
         padding: 0;
     }
+	
+}
+
+@media(max-width:767px) {
+	.parallax, .overlay {
+	height: auto;
+	}
+	.overlay {
+    padding: 100px 0;
+}
 }
