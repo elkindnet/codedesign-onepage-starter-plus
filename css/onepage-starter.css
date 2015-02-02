@@ -19,30 +19,17 @@ html {
 }
 
 .btn {
-    border-radius: 0;
+    border-radius: 2px;
 }
 h1 {
     font-size: 46px;
     font-weight: 300;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
-}
-
 .navbar-brand {
     font-size: 28px;
     line-height: 20px;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 .navbar-default {
@@ -63,49 +50,45 @@ h1 {
 
 .btn-default, .btn-default:hover, .btn-default:focus {
     background-color: transparent;
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
-
 .intro-section {
-    height: 100%;
-    padding-top: 150px;
-    background: url(../img/0.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background: url(../img/3.jpg) no-repeat center center fixed;
 }
-
 .about-section {
-    height: 100%;
-    padding-top: 150px;
-    background: url(../img/3.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background: url(../img/0.jpg) no-repeat center center fixed;
 }
-
 .services-section {
-    height: 100%;
-    padding-top: 150px;
-    background: url(../img/2.jpg) no-repeat bottom center scroll;
+    background: url(../img/2.jpg) no-repeat center center fixed;
+}
+.contact-section {
+    background: url(../img/1.jpg) no-repeat center center fixed;
+}
+.parallax {
+	height: 100%; 
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative;
+    padding: 150px 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    background: url(../img/1.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
 }
