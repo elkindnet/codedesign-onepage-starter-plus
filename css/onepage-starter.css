@@ -19,9 +19,14 @@ html {
     height: 100%;
 }
 
+a .fa-stack {
+    color: #46b8da;
+}
+
 .btn {
     border-radius: 2px;
 }
+
 h1 {
     font-size: 46px;
     font-weight: 300;
