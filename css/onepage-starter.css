@@ -71,9 +71,18 @@ h1 {
     background: url(../img/1.jpg);
 }
 .overlay {
-	background: rgba(255, 255, 255, 0.5);
     padding: 150px 0;
 	height: 100%; 
+
+background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 70%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 70%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+
+
 }
 .parallax {
 	height: 100%; 
@@ -106,8 +115,15 @@ h1 {
 @media(max-width:767px) {
 	.parallax, .overlay {
 	height: auto;
+	background-position: 50% 50%!important;
 	}
 	.overlay {
-    padding: 100px 0;
+    padding: 70px 0;
+	background: rgba(255, 255, 255, 0.7);
+	}
+.navbar-default  .navbar-collapse {
+    background-color: #f8f8f8;
+	}
 }
-}
+
+
