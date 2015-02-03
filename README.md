@@ -1,10 +1,10 @@
-# [Code/Design](http://codedesign.elkind.net/) - [One Page Starter](http://elkindnet.github.io/codedesign-onepage-starter-plus/)
+# [Code/Design](http://codedesign.elkind.net/) - [One Page Starter+](http://codedesign.elkind.net/htmlandbootstrap/one-page-starter-plus-html-bootstrap/)
 
 <img src="https://raw.githubusercontent.com/elkindnet/codedesign-onepage-starter-plus/gh-pages/screenshot.jpg">
 
-###[Live Demo](http://elkindnet.github.io/codedesign-onepage-starter-plus/)   |   [Download](https://github.com/elkindnet/codedesign-onepage-starter-plus/archive/gh-pages.zip)
+###[Live Demo](http://codedesign.elkind.net/htmlandbootstrap/one-page-starter-plus-html-bootstrap/)   |   [Download](https://github.com/elkindnet/codedesign-onepage-starter-plus/archive/gh-pages.zip)
 
-[One Page Starter](http://elkindnet.github.io/codedesign-onepage-starter-plus/) - one page starter template with a collapsing, smooth scrolling navigation bar for [Bootstrap](http://getbootstrap.com/) created by [Code/Design](http://codedesign.elkind.net/).
+[One Page Starter Plus](http://codedesign.elkind.net/htmlandbootstrap/one-page-starter-plus-html-bootstrap/) - Onepage Starter Plus – Advanced and powerful version of the One Page Starter theme with a collapsing, smooth scrolling navigation bar and parallax created by [Code/Design](http://codedesign.elkind.net/).
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ To use this template, choose one of the following options to get started:
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/elkindnet/codedesign-onepage-starter-plus/issues) here on GitHub.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/elkindnet/codedesign-onepage-starter-plus/issues) here on GitHub or leave a comment on the [template overview page at Code/Design](http://codedesign.elkind.net/htmlandbootstrap/one-page-starter-plus-html-bootstrap/).
 
 ## Creator
 
@@ -25,6 +25,7 @@ Code/Design was created by and is maintained by **Jeny Elkind**, [elkind.net](ht
 * https://www.facebook.com/jenyelkind
 
 Code/Design is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
 
 ## Copyright and License
 
